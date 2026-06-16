@@ -10,4 +10,19 @@ public class HelloController {
 	public String sayHello(){
 		return "Hello, World!";
 	}
+
+	@GetMapping("/goodbye")
+	public String sayGoodBye(){
+		return "Goodbye, Kimino Unmeino hitowa boku janai";
+	}
+
+	@GetMapping("/hey")
+	public String sayHey(){
+		return "Hey hey, samurai heart";
+	}
+
+	@GetMapping("/hi")
+	public String sayhi(){
+		return "hihihihi";
+	}
 }
