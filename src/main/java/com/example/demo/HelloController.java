@@ -20,4 +20,9 @@ public class HelloController {
 	public String sayHey(){
 		return "Hey hey, samurai heart";
 	}
+
+	@GetMapping("/hi")
+	public String sayhi(){
+		return "hihihihi";
+	}
 }
